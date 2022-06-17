@@ -2,6 +2,9 @@
 	"homepage": "http://syrcheddar.github.io/knihovna-frontend/",
 	"name": "knihovna-frontend",
 	"version": "0.1.0",
+	"engines": {
+		"npm": "16.x"
+	},
 	"private": true,
 	"dependencies": {
 		"@sefailyasoz/react-carousel": "^1.1.1",
