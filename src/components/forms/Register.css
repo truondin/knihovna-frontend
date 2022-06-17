@@ -1,0 +1,45 @@
+p {
+    color: red;
+  }
+  .success{
+    color: green;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0em;
+  }
+  .headerText{
+      margin-left:16px;
+    text-align: center;
+    font-size: 2.5em;
+    justify-content: center;
+  }
+
+.form-control:focus {
+  border-color: rgba(38, 40, 37, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(99, 101, 99, 0.6);
+  outline: 0 none;
+} 
+.eye:focus, .eye:active, .eye {
+  border-color: none !important;
+  box-shadow: none !important;
+  outline: 0 none !important;
+}
+/*
+.eye{
+  border: 1px solid #ced4da !important;
+  border-left: 0px !important;
+}
+*/
+.swapSign{
+  color:rgb(34, 185, 255);
+  margin-left: 5px;
+}
+.swapSign:hover{
+  text-shadow: 0.5px 0.5px 0px rgb(34, 185, 255);
+  cursor: pointer;
+}
+.modal-header{
+  border-bottom:0px;
+  padding-bottom:0px
+}
